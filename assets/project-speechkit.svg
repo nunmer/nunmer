@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t d">
+<title id="t">speechkit (public)</title>
+<desc id="d">Pluggable TTS/STT service: REST + CLI, async workers, swappable engines.</desc>
+<style>.led { animation: led 2s ease-in-out infinite; } @keyframes led { 50% { opacity: .3; } }
+.wv { transform-box: fill-box; transform-origin: center; animation: wv 1.2s ease-in-out infinite; }
+@keyframes wv { 0%,100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+.wv-t { animation: wv-type 5s steps(16) infinite; }
+@keyframes wv-type { 0% { clip-path: inset(0 100% 0 0); } 60%,100% { clip-path: inset(0 0 0 0); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="pc-bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111C2C"/><stop offset="1" stop-color="#0B1118"/>
+</linearGradient>
+<linearGradient id="pc-edge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#D6A84F" stop-opacity="0"/>
+  <stop offset="0.5" stop-color="#D6A84F" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#D6A84F" stop-opacity="0"/>
+</linearGradient><linearGradient id="wv-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FE0D0"/><stop offset="1" stop-color="#D6A84F"/></linearGradient></defs>
+<rect x="1" y="1" width="598" height="258" rx="14" fill="url(#pc-bg)" stroke="#1F3150"/>
+<rect x="40" y="1" width="520" height="1.5" fill="url(#pc-edge)"/>
+<g fill="none" stroke="#D6A84F" stroke-width="1.4" opacity="0.55">
+  <path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 10) scale(1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 10) scale(-1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 250) scale(1 -1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 250) scale(-1 -1)"/>
+</g>
+<rect x="14" y="14" width="216" height="232" rx="10" fill="#05070D" opacity=".7"/>
+<clipPath id="artClip"><rect x="14" y="14" width="216" height="232" rx="10"/></clipPath>
+<g clip-path="url(#artClip)"><g transform="translate(122 130) scale(.92)"><g transform="translate(0 -20)" fill="url(#wv-g)"><rect class="wv" x="-99" y="-9.3" width="5" height="18.61" rx="2.5" style="animation-delay:-1.12s"/><rect class="wv" x="-90" y="-15.13" width="5" height="30.26" rx="2.5" style="animation-delay:-0.4s"/><rect class="wv" x="-81" y="-23.73" width="5" height="47.45" rx="2.5" style="animation-delay:-0.55s"/><rect class="wv" x="-72" y="-7.33" width="5" height="14.65" rx="2.5" style="animation-delay:-0.9s"/><rect class="wv" x="-63" y="-15.88" width="5" height="31.77" rx="2.5" style="animation-delay:-0.2s"/><rect class="wv" x="-54" y="-29.19" width="5" height="58.38" rx="2.5" style="animation-delay:-0.39s"/><rect class="wv" x="-45" y="-11.22" width="5" height="22.44" rx="2.5" style="animation-delay:-0.62s"/><rect class="wv" x="-36" y="-25.8" width="5" height="51.59" rx="2.5" style="animation-delay:-0.7s"/><rect class="wv" x="-27" y="-18.09" width="5" height="36.19" rx="2.5" style="animation-delay:-0.83s"/><rect class="wv" x="-18" y="-7.57" width="5" height="15.14" rx="2.5" style="animation-delay:-0.78s"/><rect class="wv" x="-9" y="-12.3" width="5" height="24.59" rx="2.5" style="animation-delay:-0.53s"/><rect class="wv" x="0" y="-25.1" width="5" height="50.2" rx="2.5" style="animation-delay:-0.25s"/><rect class="wv" x="9" y="-11.09" width="5" height="22.18" rx="2.5" style="animation-delay:-0.33s"/><rect class="wv" x="18" y="-12.57" width="5" height="25.13" rx="2.5" style="animation-delay:-0.77s"/><rect class="wv" x="27" y="-24.28" width="5" height="48.56" rx="2.5" style="animation-delay:-0.9s"/><rect class="wv" x="36" y="-16.33" width="5" height="32.65" rx="2.5" style="animation-delay:-0.49s"/><rect class="wv" x="45" y="-24.85" width="5" height="49.7" rx="2.5" style="animation-delay:-0.4s"/><rect class="wv" x="54" y="-26.63" width="5" height="53.25" rx="2.5" style="animation-delay:-0.78s"/><rect class="wv" x="63" y="-12.79" width="5" height="25.58" rx="2.5" style="animation-delay:-0.67s"/><rect class="wv" x="72" y="-6.62" width="5" height="13.24" rx="2.5" style="animation-delay:-0.36s"/><rect class="wv" x="81" y="-8.47" width="5" height="16.95" rx="2.5" style="animation-delay:-0.15s"/><rect class="wv" x="90" y="-9.59" width="5" height="19.18" rx="2.5" style="animation-delay:-0.77s"/><rect class="wv" x="99" y="-28.24" width="5" height="56.47" rx="2.5" style="animation-delay:-0.2s"/></g>
+<g transform="translate(-100 44)"><rect width="200" height="40" rx="6" fill="#05070D" stroke="#1F3150"/>
+<text x="10" y="16" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9" fill="#5B6B80">stt ▸ transcript</text>
+<text class="wv-t" x="10" y="31" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#F5F7FA">"сәлем! қалайсың?"</text></g></g></g>
+<text x="252" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7FA">speechkit</text>
+<g transform="translate(252 72)">
+  <circle class="led" cx="5" cy="5" r="4" fill="#D6A84F"/>
+  <text x="16" y="9.5" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1" fill="#D6A84F">PUBLIC</text>
+</g>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#9AA8B8"><text x="252" y="112">Pluggable TTS/STT service: REST + CLI,</text><text x="252" y="132">async workers, swappable engines.</text></g>
+<g transform="translate(252 196)"><rect width="62.400000000000006" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="31.200000000000003" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Python</text></g><g transform="translate(322.4 196)"><rect width="77.2" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="38.6" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Postgres</text></g><g transform="translate(407.59999999999997 196)"><rect width="62.400000000000006" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="31.200000000000003" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Docker</text></g>
+<text x="574" y="240" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#5B6B80">github.com/nunmer/speechkit ↗</text>
+</svg>

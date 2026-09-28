@@ -1,0 +1,58 @@
+name: guestbook star
+
+# Anyone can open an issue, so nothing from the issue title or body is ever
+# interpolated into a shell command. The only input used is the author's
+# login, passed through an environment variable and validated in Node.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# No shared concurrency group on purpose: GitHub keeps only one pending run
+# per group and cancels the rest, which would silently drop guests during a
+# burst. Each run instead rebuilds on top of the latest main and retries.
+
+jobs:
+  star:
+    if: contains(github.event.issue.title, 'Leave a star')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Add the guest, re-render, commit (rebuilt on latest main on retry)
+        env:
+          GUEST_LOGIN: ${{ github.event.issue.user.login }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "steppe-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --quiet --hard origin/main
+            node scripts/guestbook.mjs
+            node scripts/generate.mjs
+            git add assets data
+            if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
+            git commit -m "chore: a new star for @${GUEST_LOGIN}"
+            git push origin HEAD:main && exit 0
+            sleep $((attempt * 4 + RANDOM % 5))
+          done
+          exit 1
+
+      - name: Thank and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh issue comment "$ISSUE" --repo "$REPO" --body "✦ Рахмет! Your star now shines in the sky at the bottom of [the profile](https://github.com/${REPO%%/*}). It can take a minute or two for GitHub's image cache to catch up. Жол болсын!"
+          gh issue close "$ISSUE" --repo "$REPO"

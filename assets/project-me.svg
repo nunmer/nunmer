@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t d">
+<title id="t">me.steppe.run (live)</title>
+<desc id="d">Portfolio as a single isometric 3D room. Five-light rig baked into vertex colours; runs on very old GPUs.</desc>
+<style>.led { animation: led 2s ease-in-out infinite; } @keyframes led { 50% { opacity: .3; } }
+.rm { animation: rm-float 5s ease-in-out infinite; }
+@keyframes rm-float { 50% { transform: translateY(-5px); } }
+.rm-scr { animation: rm-flick 3s steps(3) infinite; }
+@keyframes rm-flick { 50% { opacity: .75; } }
+.rm-dust { animation: rm-dust 6s linear infinite; }
+@keyframes rm-dust { from { transform: translateY(0); opacity: 0; } 30% { opacity: .9; } to { transform: translateY(-40px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="pc-bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111C2C"/><stop offset="1" stop-color="#0B1118"/>
+</linearGradient>
+<linearGradient id="pc-edge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#3FE0D0" stop-opacity="0"/>
+  <stop offset="0.5" stop-color="#3FE0D0" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#3FE0D0" stop-opacity="0"/>
+</linearGradient></defs>
+<rect x="1" y="1" width="598" height="258" rx="14" fill="url(#pc-bg)" stroke="#1F3150"/>
+<rect x="40" y="1" width="520" height="1.5" fill="url(#pc-edge)"/>
+<g fill="none" stroke="#D6A84F" stroke-width="1.4" opacity="0.55">
+  <path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 10) scale(1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 10) scale(-1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 250) scale(1 -1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 250) scale(-1 -1)"/>
+</g>
+<rect x="14" y="14" width="216" height="232" rx="10" fill="#05070D" opacity=".7"/>
+<clipPath id="artClip"><rect x="14" y="14" width="216" height="232" rx="10"/></clipPath>
+<g clip-path="url(#artClip)"><g transform="translate(122 130) scale(.92)"><g transform="translate(0 38) scale(.78)"><g class="rm">
+  <path d="M0 -70 L121.24 0 L0 70 L-121.24 0 Z" fill="#1A2436"/>
+  <path d="M0 -70 L-121.24 0 L-121.24 -90 L0 -160 Z" fill="#13203A"/>
+  <path d="M0 -70 L121.24 0 L121.24 -90 L0 -160 Z" fill="#0F1A2E"/>
+  <path d="M0 -94 L60.62 -59 L25.98 -39 L-34.64 -74 Z" fill="#D9C7A3" opacity=".85"/>
+  <path d="M-34.64 -74 L25.98 -39 L25.98 -35 L-34.64 -70 Z" fill="#8A7B60"/>
+  <path class="rm-scr" d="M13.86 -98 L57.16 -73 L57.16 -103 L13.86 -128 Z" fill="#00A6A6"/>
+  <path d="M17.32 -101 L47.63 -83.5 M17.32 -109 L38.97 -96.5 M17.32 -117 L51.96 -97" stroke="#05070D" stroke-width="1.5" opacity=".6"/>
+  <path d="M-74.48 -83 L-109.12 -63" stroke="#D6A84F" stroke-width="3"/>
+  <path d="M-83.14 -106 L-60.62 -29 L-86.6 -14 Z" fill="#F2CD7A" opacity=".12"/>
+  <g fill="#F2CD7A"><circle class="rm-dust" cx="8.66" cy="-75" r="1.4" style="animation-delay:-0s"/><circle class="rm-dust" cx="-8.66" cy="-55" r="1.4" style="animation-delay:-2s"/><circle class="rm-dust" cx="25.98" cy="-35" r="1.4" style="animation-delay:-4s"/></g>
+</g>
+</g><text x="0" y="104" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#9AA8B8">~30 draw calls · 0 lights</text></g></g>
+<text x="252" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7FA">me.steppe.run</text>
+<g transform="translate(252 72)">
+  <circle class="led" cx="5" cy="5" r="4" fill="#3FE0D0"/>
+  <text x="16" y="9.5" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1" fill="#3FE0D0">LIVE</text>
+</g>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#9AA8B8"><text x="252" y="112">Portfolio as a single isometric 3D room.</text><text x="252" y="132">Five-light rig baked into vertex</text><text x="252" y="152">colours; runs on very old GPUs.</text></g>
+<g transform="translate(252 196)"><rect width="77.2" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="38.6" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Three.js</text></g><g transform="translate(337.2 196)"><rect width="55" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="27.5" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">WebGL</text></g><g transform="translate(400.2 196)"><rect width="62.400000000000006" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="31.200000000000003" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">1 file</text></g>
+<text x="574" y="240" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#5B6B80">me-steppe.vercel.app ↗</text>
+</svg>

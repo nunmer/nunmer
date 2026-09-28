@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t d">
+<title id="t">QALA CODE (live)</title>
+<desc id="d">Interactive map of Astana&#39;s street names, with an AI guide trained on a hand-built urbanonym database.</desc>
+<style>.led { animation: led 2s ease-in-out infinite; } @keyframes led { 50% { opacity: .3; } }
+.ct-st { stroke-dasharray: 8 260; stroke-dashoffset: 268; animation: ct-flow 4.5s linear infinite; }
+@keyframes ct-flow { to { stroke-dashoffset: 0; } }
+.ct-orb { animation: ct-glow 3s ease-in-out infinite; }
+@keyframes ct-glow { 50% { opacity: .55; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="pc-bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111C2C"/><stop offset="1" stop-color="#0B1118"/>
+</linearGradient>
+<linearGradient id="pc-edge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#3FE0D0" stop-opacity="0"/>
+  <stop offset="0.5" stop-color="#3FE0D0" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#3FE0D0" stop-opacity="0"/>
+</linearGradient><radialGradient id="ct-g"><stop offset="0" stop-color="#F2CD7A" stop-opacity=".8"/><stop offset="1" stop-color="#D6A84F" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="598" height="258" rx="14" fill="url(#pc-bg)" stroke="#1F3150"/>
+<rect x="40" y="1" width="520" height="1.5" fill="url(#pc-edge)"/>
+<g fill="none" stroke="#D6A84F" stroke-width="1.4" opacity="0.55">
+  <path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 10) scale(1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 10) scale(-1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 250) scale(1 -1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 250) scale(-1 -1)"/>
+</g>
+<rect x="14" y="14" width="216" height="232" rx="10" fill="#05070D" opacity=".7"/>
+<clipPath id="artClip"><rect x="14" y="14" width="216" height="232" rx="10"/></clipPath>
+<g clip-path="url(#artClip)"><g transform="translate(122 130) scale(.92)"><g stroke="#1F3150" stroke-width="2" fill="none"><path d="M-100 40 L100 10"/><path d="M-100 70 L100 40"/><path d="M-60 90 L-10 -10"/><path d="M10 95 L60 -5"/><path d="M-100 10 L100 -18"/></g>
+<g stroke="#3FE0D0" stroke-width="2.4" fill="none" stroke-linecap="round"><path d="M-100 40 L100 10" class="ct-st" style="animation-delay:0s"/><path d="M-100 70 L100 40" class="ct-st" style="animation-delay:0.9s"/><path d="M-60 90 L-10 -10" class="ct-st" style="animation-delay:1.8s"/><path d="M10 95 L60 -5" class="ct-st" style="animation-delay:2.7s"/><path d="M-100 10 L100 -18" class="ct-st" style="animation-delay:3.6s"/></g>
+<g fill="none" stroke="#D9C7A3" stroke-width="2">
+  <path d="M-6 92 L-3 -30 M6 92 L3 -30"/>
+  <path d="M-3 -30 C-30 -40 -30 -70 -14 -84 M3 -30 C30 -40 30 -70 14 -84 M0 -30 C-14 -50 -14 -72 -6 -86 M0 -30 C14 -50 14 -72 6 -86"/>
+  <path d="M-5 80 L5 70 M-5 60 L5 50 M-5 40 L5 30 M-4 20 L4 10 M5 80 L-5 70 M5 60 L-5 50 M5 40 L-5 30 M4 20 L-4 10" stroke-width="1" opacity=".6"/>
+</g>
+<circle cx="0" cy="-64" r="26" fill="url(#ct-g)" class="ct-orb"/>
+<circle cx="0" cy="-64" r="15" fill="#F2CD7A"/>
+<text x="0" y="112" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#9AA8B8">көше · street · улица</text></g></g>
+<text x="252" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7FA">QALA CODE</text>
+<g transform="translate(252 72)">
+  <circle class="led" cx="5" cy="5" r="4" fill="#3FE0D0"/>
+  <text x="16" y="9.5" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1" fill="#3FE0D0">LIVE</text>
+</g>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#9AA8B8"><text x="252" y="112">Interactive map of Astana&#39;s street</text><text x="252" y="132">names, with an AI guide trained on a</text><text x="252" y="152">hand-built urbanonym database.</text></g>
+<g transform="translate(252 196)"><rect width="92" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="46" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">TypeScript</text></g><g transform="translate(352 196)"><rect width="40.2" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="20.1" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">RAG</text></g><g transform="translate(400.2 196)"><rect width="47.6" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="23.8" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Maps</text></g>
+<text x="574" y="240" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#5B6B80">qala-code.vercel.app ↗</text>
+</svg>

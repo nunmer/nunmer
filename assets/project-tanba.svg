@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t d">
+<title id="t">Tanba (public)</title>
+<desc id="d">Permanent NFC/QR identifiers with cloud routing. Repoint thousands of physical tags instantly.</desc>
+<style>.led { animation: led 2s ease-in-out infinite; } @keyframes led { 50% { opacity: .3; } }
+.nf-w { fill: none; stroke: #3FE0D0; transform-box: fill-box; transform-origin: center; animation: nf-w 2.4s ease-out infinite; opacity: 0; }
+@keyframes nf-w { from { transform: scale(.4); opacity: .9; } to { transform: scale(1.6); opacity: 0; } }
+.nf-d { opacity: .25; animation: nf-d 6s steps(1) infinite; }
+@keyframes nf-d { 0%,33% { opacity: 1; } 34%,100% { opacity: .25; } }
+.nf-a { animation: nf-a 6s steps(1) infinite; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="pc-bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111C2C"/><stop offset="1" stop-color="#0B1118"/>
+</linearGradient>
+<linearGradient id="pc-edge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#D6A84F" stop-opacity="0"/>
+  <stop offset="0.5" stop-color="#D6A84F" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#D6A84F" stop-opacity="0"/>
+</linearGradient></defs>
+<rect x="1" y="1" width="598" height="258" rx="14" fill="url(#pc-bg)" stroke="#1F3150"/>
+<rect x="40" y="1" width="520" height="1.5" fill="url(#pc-edge)"/>
+<g fill="none" stroke="#D6A84F" stroke-width="1.4" opacity="0.55">
+  <path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 10) scale(1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 10) scale(-1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 250) scale(1 -1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 250) scale(-1 -1)"/>
+</g>
+<rect x="14" y="14" width="216" height="232" rx="10" fill="#05070D" opacity=".7"/>
+<clipPath id="artClip"><rect x="14" y="14" width="216" height="232" rx="10"/></clipPath>
+<g clip-path="url(#artClip)"><g transform="translate(122 130) scale(.92)"><g transform="translate(-50 0)">
+  <circle class="nf-w" r="30" style="animation-delay:0s"/><circle class="nf-w" r="30" style="animation-delay:0.8s"/><circle class="nf-w" r="30" style="animation-delay:1.6s"/>
+  <rect x="-22" y="-22" width="44" height="44" rx="8" fill="#16243A" stroke="#D6A84F"/>
+  <text y="5" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#F2CD7A">NFC</text>
+  <text y="44" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9" fill="#5B6B80">/r/7F3K29</text>
+</g>
+<g class="nf-d" style="animation-delay:0s">
+  <path d="M-20 0 C20 0 20 -60 50 -60" fill="none" stroke="#3FE0D0" stroke-width="1.6"/>
+  <rect x="52" y="-72" width="54" height="24" rx="5" fill="#05070D" stroke="#00A6A6"/>
+  <text x="79" y="-56" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#F5F7FA">menu</text></g><g class="nf-d" style="animation-delay:2s">
+  <path d="M-20 0 C20 0 20 0 50 0" fill="none" stroke="#3FE0D0" stroke-width="1.6"/>
+  <rect x="52" y="-12" width="54" height="24" rx="5" fill="#05070D" stroke="#00A6A6"/>
+  <text x="79" y="4" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#F5F7FA">review</text></g><g class="nf-d" style="animation-delay:4s">
+  <path d="M-20 0 C20 0 20 60 50 60" fill="none" stroke="#3FE0D0" stroke-width="1.6"/>
+  <rect x="52" y="48" width="54" height="24" rx="5" fill="#05070D" stroke="#00A6A6"/>
+  <text x="79" y="64" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#F5F7FA">wifi</text></g></g></g>
+<text x="252" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7FA">Tanba</text>
+<g transform="translate(252 72)">
+  <circle class="led" cx="5" cy="5" r="4" fill="#D6A84F"/>
+  <text x="16" y="9.5" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1" fill="#D6A84F">PUBLIC</text>
+</g>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#9AA8B8"><text x="252" y="112">Permanent NFC/QR identifiers with cloud</text><text x="252" y="132">routing. Repoint thousands of physical</text><text x="252" y="152">tags instantly.</text></g>
+<g transform="translate(252 196)"><rect width="62.400000000000006" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="31.200000000000003" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Python</text></g><g transform="translate(322.4 196)"><rect width="69.80000000000001" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="34.900000000000006" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">FastAPI</text></g><g transform="translate(400.2 196)"><rect width="55" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="27.5" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Redis</text></g>
+<text x="574" y="240" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#5B6B80">github.com/nunmer/tanba ↗</text>
+</svg>

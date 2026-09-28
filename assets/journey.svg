@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+<title id="t">The road so far</title>
+<desc id="d">2018: first commit, joined GitHub. 2021: Trust-Mail, school platform, graded A*. 2022: web3 + java, dapps, NFTs, load testing. 2023: BaigeCode, frontends and classifiers. 2024: gpstracker, IoT and e-commerce. 2025: fintech AI, LLM orchestration, voice. 2026: OnSteppe, agents, games, maps</desc>
+<style>
+.trail { stroke-dasharray: 2400; stroke-dashoffset: 2400; animation: trail 3.6s ease-in-out forwards; }
+@keyframes trail { to { stroke-dashoffset: 0; } }
+.wp { opacity: 0; animation: wp .6s ease-out forwards; }
+@keyframes wp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2s ease-out infinite; }
+@keyframes ping { from { transform: scale(.4); opacity: 1; } to { transform: scale(1.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="jr-bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111C2C"/><stop offset="1" stop-color="#0B1118"/>
+</linearGradient>
+<linearGradient id="jr-edge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#D6A84F" stop-opacity="0"/>
+  <stop offset="0.5" stop-color="#D6A84F" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#D6A84F" stop-opacity="0"/>
+</linearGradient></defs>
+<rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#jr-bg)" stroke="#1F3150"/>
+<rect x="40" y="1" width="1120" height="1.5" fill="url(#jr-edge)"/>
+<g fill="none" stroke="#D6A84F" stroke-width="1.4" opacity="0.55">
+  <path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 10) scale(1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(1190 10) scale(-1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 290) scale(1 -1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(1190 290) scale(-1 -1)"/>
+</g>
+<text x="40" y="46" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="6" fill="#D6A84F">ЖОЛ</text>
+<text x="100" y="46" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5B6B80">// the road so far</text>
+<path d="M90 170 C118.33 175.46 203.33 199.84 260 202.76 C316.67 205.68 373.33 196.89 430 187.53 C486.67 178.17 543.33 154.55 600 146.62 C656.67 138.69 713.33 134.85 770 139.96 C826.67 145.08 883.33 166.65 940 177.31 C996.67 187.98 1081.67 199.51 1110 203.95" fill="none" stroke="#1F3150" stroke-width="6" stroke-linecap="round"/>
+<path d="M90 170 C118.33 175.46 203.33 199.84 260 202.76 C316.67 205.68 373.33 196.89 430 187.53 C486.67 178.17 543.33 154.55 600 146.62 C656.67 138.69 713.33 134.85 770 139.96 C826.67 145.08 883.33 166.65 940 177.31 C996.67 187.98 1081.67 199.51 1110 203.95" class="trail" fill="none" stroke="#00A6A6" stroke-width="2" stroke-linecap="round"/>
+<path d="M90 170 C118.33 175.46 203.33 199.84 260 202.76 C316.67 205.68 373.33 196.89 430 187.53 C486.67 178.17 543.33 154.55 600 146.62 C656.67 138.69 713.33 134.85 770 139.96 C826.67 145.08 883.33 166.65 940 177.31 C996.67 187.98 1081.67 199.51 1110 203.95" fill="none" stroke="#0B1118" stroke-width="2.4" stroke-dasharray="1 9" opacity=".8"/>
+<g class="wp" style="animation-delay:0.30s">
+  
+  <circle cx="90" cy="170" r="6" fill="#0B1118" stroke="#3FE0D0" stroke-width="2"/>
+  <path d="M90 162 L90 160" stroke="#1F3150"/>
+  <text x="90" y="118" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#D6A84F">2018</text>
+  <text x="90" y="136" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F5F7FA">first commit</text>
+  <text x="90" y="152" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#9AA8B8">joined GitHub</text>
+</g><g class="wp" style="animation-delay:0.83s">
+  
+  <circle cx="260" cy="202.76" r="6" fill="#0B1118" stroke="#3FE0D0" stroke-width="2"/>
+  <path d="M260 210.76 L260 214.76" stroke="#1F3150"/>
+  <text x="260" y="232.76" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#D6A84F">2021</text>
+  <text x="260" y="250.76" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F5F7FA">Trust-Mail</text>
+  <text x="260" y="266.76" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#9AA8B8">school platform, graded A*</text>
+</g><g class="wp" style="animation-delay:1.37s">
+  
+  <circle cx="430" cy="187.53" r="6" fill="#0B1118" stroke="#3FE0D0" stroke-width="2"/>
+  <path d="M430 179.53 L430 177.53" stroke="#1F3150"/>
+  <text x="430" y="135.53" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#D6A84F">2022</text>
+  <text x="430" y="153.53" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F5F7FA">web3 + java</text>
+  <text x="430" y="169.53" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#9AA8B8">dapps, NFTs, load testing</text>
+</g><g class="wp" style="animation-delay:1.90s">
+  
+  <circle cx="600" cy="146.62" r="6" fill="#0B1118" stroke="#3FE0D0" stroke-width="2"/>
+  <path d="M600 154.62 L600 158.62" stroke="#1F3150"/>
+  <text x="600" y="176.62" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#D6A84F">2023</text>
+  <text x="600" y="194.62" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F5F7FA">BaigeCode</text>
+  <text x="600" y="210.62" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#9AA8B8">frontends and classifiers</text>
+</g><g class="wp" style="animation-delay:2.43s">
+  
+  <circle cx="770" cy="139.96" r="6" fill="#0B1118" stroke="#3FE0D0" stroke-width="2"/>
+  <path d="M770 131.96 L770 129.96" stroke="#1F3150"/>
+  <text x="770" y="87.96000000000001" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#D6A84F">2024</text>
+  <text x="770" y="105.96000000000001" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F5F7FA">gpstracker</text>
+  <text x="770" y="121.96000000000001" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#9AA8B8">IoT and e-commerce</text>
+</g><g class="wp" style="animation-delay:2.97s">
+  
+  <circle cx="940" cy="177.31" r="6" fill="#0B1118" stroke="#3FE0D0" stroke-width="2"/>
+  <path d="M940 185.31 L940 189.31" stroke="#1F3150"/>
+  <text x="940" y="207.31" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#D6A84F">2025</text>
+  <text x="940" y="225.31" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F5F7FA">fintech AI</text>
+  <text x="940" y="241.31" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#9AA8B8">LLM orchestration, voice</text>
+</g><g class="wp" style="animation-delay:3.50s">
+  <circle cx="1110" cy="203.95" r="18" fill="none" stroke="#D6A84F" class="ping"/>
+  <circle cx="1110" cy="203.95" r="8" fill="#F2CD7A" stroke="#F2CD7A" stroke-width="2"/>
+  <path d="M1110 195.95 L1110 193.95" stroke="#1F3150"/>
+  <text x="1110" y="151.95" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#F2CD7A">2026</text>
+  <text x="1110" y="169.95" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F5F7FA">OnSteppe</text>
+  <text x="1110" y="185.95" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#9AA8B8">agents, games, maps</text>
+</g>
+<g><g fill="#D9C7A3">
+  <path d="M-12 -8 Q-10 -18 -4 -14 Q0 -22 5 -14 Q9 -12 10 -8 L14 -14 L17 -13 L15 -6 L10 -3 L-12 -3 Z"/>
+  <path d="M-10 -3 l0 8 M-6 -3 l0 8 M4 -3 l0 8 M8 -3 l0 8" stroke="#D9C7A3" stroke-width="1.6"/>
+</g><animateMotion dur="24s" repeatCount="indefinite" path="M90 170 C118.33 175.46 203.33 199.84 260 202.76 C316.67 205.68 373.33 196.89 430 187.53 C486.67 178.17 543.33 154.55 600 146.62 C656.67 138.69 713.33 134.85 770 139.96 C826.67 145.08 883.33 166.65 940 177.31 C996.67 187.98 1081.67 199.51 1110 203.95" rotate="auto"/></g>
+<path d="M1130 36 L1131.76 42.24 L1138 44 L1131.76 45.76 L1130 52 L1128.24 45.76 L1122 44 L1128.24 42.24 Z" fill="#F2CD7A" opacity=".8"/>
+</svg>

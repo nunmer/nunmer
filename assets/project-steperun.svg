@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t d">
+<title id="t">Steppe RUN (public)</title>
+<desc id="d">Race results portal for Almaty: 60k runners, ELO power rankings, Strava-verified profiles.</desc>
+<style>.led { animation: led 2s ease-in-out infinite; } @keyframes led { 50% { opacity: .3; } }
+.rn-line { stroke-dasharray: 400; stroke-dashoffset: 400; animation: rn-draw 5s ease-in-out infinite; }
+@keyframes rn-draw { 0% { stroke-dashoffset: 400; } 70%,100% { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="pc-bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111C2C"/><stop offset="1" stop-color="#0B1118"/>
+</linearGradient>
+<linearGradient id="pc-edge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#D6A84F" stop-opacity="0"/>
+  <stop offset="0.5" stop-color="#D6A84F" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#D6A84F" stop-opacity="0"/>
+</linearGradient><linearGradient id="rn-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00A6A6" stop-opacity=".35"/><stop offset="1" stop-color="#00A6A6" stop-opacity="0"/></linearGradient></defs>
+<rect x="1" y="1" width="598" height="258" rx="14" fill="url(#pc-bg)" stroke="#1F3150"/>
+<rect x="40" y="1" width="520" height="1.5" fill="url(#pc-edge)"/>
+<g fill="none" stroke="#D6A84F" stroke-width="1.4" opacity="0.55">
+  <path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 10) scale(1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 10) scale(-1 1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(10 250) scale(1 -1)"/><path d="M0 14 L0 0 L14 0 M5 18 C5 9 9 5 18 5" transform="translate(590 250) scale(-1 -1)"/>
+</g>
+<rect x="14" y="14" width="216" height="232" rx="10" fill="#05070D" opacity=".7"/>
+<clipPath id="artClip"><rect x="14" y="14" width="216" height="232" rx="10"/></clipPath>
+<g clip-path="url(#artClip)"><g transform="translate(122 130) scale(.92)"><path d="M-100 40 L-80 30 L-65 36 L-45 10 L-30 18 L-10 -20 L5 -8 L25 -40 L40 -30 L60 -10 L80 5 L100 -5 L100 60 L-100 60 Z" fill="url(#rn-g)"/>
+<path d="M-100 40 L-80 30 L-65 36 L-45 10 L-30 18 L-10 -20 L5 -8 L25 -40 L40 -30 L60 -10 L80 5 L100 -5" class="rn-line" fill="none" stroke="#3FE0D0" stroke-width="2.4" stroke-linejoin="round"/>
+<g font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9" fill="#5B6B80"><text x="-100" y="76">0k</text><text x="-34" y="76">10k</text><text x="32" y="76">21k</text><text x="98" y="76">42k</text></g>
+<circle r="5" fill="#F2CD7A"><animateMotion dur="5s" repeatCount="indefinite" path="M-100 40 L-80 30 L-65 36 L-45 10 L-30 18 L-10 -20 L5 -8 L25 -40 L40 -30 L60 -10 L80 5 L100 -5" keyPoints="0;1;1" keyTimes="0;.7;1" calcMode="linear"/></circle>
+<g transform="translate(-100 -84)"><rect width="92" height="30" rx="6" fill="#05070D" stroke="#D6A84F" stroke-opacity=".5"/>
+<text x="10" y="20" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#F2CD7A">ELO 1847</text></g>
+<g transform="translate(20 -84)"><rect width="80" height="30" rx="6" fill="#05070D" stroke="#1F3150"/>
+<text x="10" y="20" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#F5F7FA">3:12:48</text></g></g></g>
+<text x="252" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7FA">Steppe RUN</text>
+<g transform="translate(252 72)">
+  <circle class="led" cx="5" cy="5" r="4" fill="#D6A84F"/>
+  <text x="16" y="9.5" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1" fill="#D6A84F">PUBLIC</text>
+</g>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#9AA8B8"><text x="252" y="112">Race results portal for Almaty: 60k</text><text x="252" y="132">runners, ELO power rankings,</text><text x="252" y="152">Strava-verified profiles.</text></g>
+<g transform="translate(252 196)"><rect width="92" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="46" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">TypeScript</text></g><g transform="translate(352 196)"><rect width="77.2" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="38.6" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">Scraping</text></g><g transform="translate(437.2 196)"><rect width="55" height="22" rx="11" fill="#05070D" stroke="#1F3150"/><text x="27.5" y="15" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#D9C7A3">OAuth</text></g>
+<text x="574" y="240" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#5B6B80">github.com/nunmer/steperun ↗</text>
+</svg>

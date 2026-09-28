@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="64" viewBox="0 0 420 64" role="img" aria-labelledby="t d">
+<title id="t">Leave a star in my sky</title>
+<desc id="d">Opens an issue. Your GitHub handle is added to the guestbook sky.</desc>
+<style>
+.sh { animation: sh 3.2s ease-in-out infinite; }
+@keyframes sh { 0% { transform: translateX(-160px); } 60%,100% { transform: translateX(460px); } }
+.sp { transform-box: fill-box; transform-origin: center; animation: sp 4s linear infinite; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="bb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16243A"/><stop offset="1" stop-color="#0B1118"/></linearGradient>
+<linearGradient id="bs" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2CD7A" stop-opacity="0"/><stop offset=".5" stop-color="#F2CD7A" stop-opacity=".28"/><stop offset="1" stop-color="#F2CD7A" stop-opacity="0"/></linearGradient>
+<clipPath id="bc"><rect x="2" y="2" width="416" height="60" rx="30"/></clipPath></defs>
+<rect x="2" y="2" width="416" height="60" rx="30" fill="url(#bb)" stroke="#D6A84F" stroke-width="1.5"/>
+<g clip-path="url(#bc)"><rect class="sh" x="0" y="0" width="120" height="64" fill="url(#bs)" transform="skewX(-20)"/></g>
+<path class="sp" d="M40 19 L42.86 29.14 L53 32 L42.86 34.86 L40 45 L37.14 34.86 L27 32 L37.14 29.14 Z" fill="#F2CD7A"/>
+<text x="68" y="38" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="17" fill="#F5F7FA">leave a star in my sky <tspan fill="#D6A84F">→</tspan></text>
+</svg>

@@ -1,0 +1,98 @@
+{
+  "login": "nunmer",
+  "hide": ["banking-assistant"],
+  "taglines": [
+    "building agents that watch agents code",
+    "shipping voice assistants that listen",
+    "turning city maps into history books",
+    "writing worlds in plain language",
+    "running marathons across the steppe"
+  ],
+  "terminal": {
+    "whoami": "AI & full-stack engineer · Kazakhstan · fintech by day, studio by night",
+    "now": [
+      ["agent-observatory", "a flight recorder for AI coding agents"],
+      ["promptarena", "a pixel world where you write your hero in prose"],
+      ["onsteppe", "a product studio from the Great Steppe"]
+    ],
+    "stack": ["python", "typescript", "go", "fastapi", "next.js", "three.js", "postgres", "redis", "docker", "llms"],
+    "motto": "Bake the hard part once. Keep the runtime cheap."
+  },
+  "projects": [
+    {
+      "name": "promptarena",
+      "title": "PromptArena",
+      "art": "arena",
+      "blurb": "Persistent 2.5D pixel world. Describe your hero in plain language; the world turns it into abilities and a weakness.",
+      "tags": ["TypeScript", "LLM", "Canvas", "WebSocket"],
+      "status": "private · in the forge"
+    },
+    {
+      "name": "agent-observatory",
+      "title": "Agent Observatory",
+      "art": "radar",
+      "blurb": "Local-first observability for AI coding agents. Files, Git and processes stream into a live timeline.",
+      "tags": ["Go", "SQLite", "WebSocket", "React"],
+      "status": "private · mvp"
+    },
+    {
+      "name": "qaida",
+      "title": "Qaida",
+      "art": "pin",
+      "blurb": "GeoGuessr for Kazakhstan. Drop a pin, score up to 5000, race friends live on Durable Objects.",
+      "tags": ["Next.js", "Cloudflare", "Maps"],
+      "status": "public"
+    },
+    {
+      "name": "qala-code",
+      "title": "QALA CODE",
+      "art": "city",
+      "blurb": "Interactive map of Astana's street names, with an AI guide trained on a hand-built urbanonym database.",
+      "tags": ["TypeScript", "RAG", "Maps"],
+      "status": "live",
+      "url": "https://qala-code.vercel.app"
+    },
+    {
+      "name": "me",
+      "title": "me.steppe.run",
+      "art": "room",
+      "blurb": "Portfolio as a single isometric 3D room. Five-light rig baked into vertex colours; runs on very old GPUs.",
+      "tags": ["Three.js", "WebGL", "1 file"],
+      "status": "live",
+      "url": "https://me-steppe.vercel.app"
+    },
+    {
+      "name": "steperun",
+      "title": "Steppe RUN",
+      "art": "run",
+      "blurb": "Race results portal for Almaty: 60k runners, ELO power rankings, Strava-verified profiles.",
+      "tags": ["TypeScript", "Scraping", "OAuth"],
+      "status": "public"
+    },
+    {
+      "name": "tanba",
+      "title": "Tanba",
+      "art": "nfc",
+      "blurb": "Permanent NFC/QR identifiers with cloud routing. Repoint thousands of physical tags instantly.",
+      "tags": ["Python", "FastAPI", "Redis"],
+      "status": "public"
+    },
+    {
+      "name": "speechkit",
+      "title": "speechkit",
+      "art": "wave",
+      "blurb": "Pluggable TTS/STT service: REST + CLI, async workers, swappable engines.",
+      "tags": ["Python", "Postgres", "Docker"],
+      "status": "public"
+    }
+  ],
+  "journey": [
+    { "year": "2018", "title": "first commit", "note": "joined GitHub" },
+    { "year": "2021", "title": "Trust-Mail", "note": "school platform, graded A*" },
+    { "year": "2022", "title": "web3 + java", "note": "dapps, NFTs, load testing" },
+    { "year": "2023", "title": "BaigeCode", "note": "frontends and classifiers" },
+    { "year": "2024", "title": "gpstracker", "note": "IoT and e-commerce" },
+    { "year": "2025", "title": "fintech AI", "note": "LLM orchestration, voice" },
+    { "year": "2026", "title": "OnSteppe", "note": "agents, games, maps" }
+  ]
+}
