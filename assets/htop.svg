@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="t d">
 <title id="t">htop for a GitHub profile</title>
-<desc id="d">Languages: TypeScript 48.9%, Python 31.4%, HTML 9.4%, JavaScript 6.1%, CSS 2.6%, PLpgSQL 0.9%, Other 0.7%. Recently pushed: me, qala-code, speechkit, onsteppe, tanba, qaida, steperun.</desc>
+<desc id="d">Languages: TypeScript 47.0%, Python 30.1%, JavaScript 9.8%, HTML 9.0%, CSS 2.5%, PLpgSQL 0.9%, Other 0.7%. Recently pushed: nunmer, me, qala-code, speechkit, onsteppe, tanba, qaida.</desc>
 <style>
 .bar { transform-box: fill-box; transform-origin: left; animation: grow 1s cubic-bezier(.2,.8,.2,1) both; }
 @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
@@ -28,36 +28,36 @@
   <text x="0" y="0" fill="#3FE0D0">1</text>
   <text x="18" y="0" fill="#3178c6">TypeScript</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="144.4" height="13" rx="1" fill="#3178c6" class="bar" style="animation-delay:0.20s"/>
-  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">48.9%</text>
+  <rect x="144" y="-11" width="138.6" height="13" rx="1" fill="#3178c6" class="bar" style="animation-delay:0.20s"/>
+  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">47.0%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(36 84)">
   <text x="0" y="0" fill="#3FE0D0">2</text>
   <text x="18" y="0" fill="#3572A5">Python</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="92.5" height="13" rx="1" fill="#3572A5" class="bar" style="animation-delay:0.32s"/>
-  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">31.4%</text>
+  <rect x="144" y="-11" width="88.8" height="13" rx="1" fill="#3572A5" class="bar" style="animation-delay:0.32s"/>
+  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">30.1%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(36 106)">
   <text x="0" y="0" fill="#3FE0D0">3</text>
-  <text x="18" y="0" fill="#e34c26">HTML</text>
+  <text x="18" y="0" fill="#f1e05a">JavaScript</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="27.7" height="13" rx="1" fill="#e34c26" class="bar" style="animation-delay:0.44s"/>
-  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">9.4%</text>
+  <rect x="144" y="-11" width="28.9" height="13" rx="1" fill="#f1e05a" class="bar" style="animation-delay:0.44s"/>
+  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">9.8%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(36 128)">
   <text x="0" y="0" fill="#3FE0D0">4</text>
-  <text x="18" y="0" fill="#f1e05a">JavaScript</text>
+  <text x="18" y="0" fill="#e34c26">HTML</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="17.9" height="13" rx="1" fill="#f1e05a" class="bar" style="animation-delay:0.56s"/>
-  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">6.1%</text>
+  <rect x="144" y="-11" width="26.6" height="13" rx="1" fill="#e34c26" class="bar" style="animation-delay:0.56s"/>
+  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">9.0%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(596 62)">
   <text x="0" y="0" fill="#3FE0D0">5</text>
   <text x="18" y="0" fill="#663399">CSS</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="7.7" height="13" rx="1" fill="#663399" class="bar" style="animation-delay:0.68s"/>
-  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">2.6%</text>
+  <rect x="144" y="-11" width="7.4" height="13" rx="1" fill="#663399" class="bar" style="animation-delay:0.68s"/>
+  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">2.5%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(596 84)">
   <text x="0" y="0" fill="#3FE0D0">6</text>
@@ -74,8 +74,8 @@
   <text x="502" y="0" text-anchor="end" fill="#9AA8B8">0.7%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(36 168)">
-  <text x="0" y="0"><tspan fill="#3FE0D0">Tasks: </tspan><tspan fill="#F5F7FA" font-weight="700">37</tspan><tspan fill="#9AA8B8"> repos, </tspan><tspan fill="#F5F7FA" font-weight="700">0</tspan><tspan fill="#9AA8B8"> stars; </tspan><tspan fill="#F2CD7A" font-weight="700">1</tspan><tspan fill="#9AA8B8"> running (the marathon)</tspan></text>
-  <text x="560" y="0"><tspan fill="#3FE0D0">Load average: </tspan><tspan fill="#F5F7FA" font-weight="700">4 11 240</tspan>   <tspan fill="#3FE0D0">Uptime: </tspan><tspan fill="#F5F7FA" font-weight="700">2860 days</tspan></text>
+  <text x="0" y="0"><tspan fill="#3FE0D0">Tasks: </tspan><tspan fill="#F5F7FA" font-weight="700">38</tspan><tspan fill="#9AA8B8"> repos, </tspan><tspan fill="#F5F7FA" font-weight="700">0</tspan><tspan fill="#9AA8B8"> stars; </tspan><tspan fill="#F2CD7A" font-weight="700">1</tspan><tspan fill="#9AA8B8"> running (the marathon)</tspan></text>
+  <text x="560" y="0"><tspan fill="#3FE0D0">Load average: </tspan><tspan fill="#F5F7FA" font-weight="700">6 13 242</tspan>   <tspan fill="#3FE0D0">Uptime: </tspan><tspan fill="#F5F7FA" font-weight="700">2860 days</tspan></text>
 </g><rect x="20" y="183" width="1160" height="21" fill="#00A6A6"/>
-<text x="36" y="198" fill="#05070D" font-weight="700" xml:space="preserve">  PID USER     PRI  NI  LANG         TIME+   S  COMMAND</text><rect x="20" y="207" width="1160" height="21" fill="#16243A" class="sel"/><text x="36" y="222" xml:space="preserve" class="row" style="animation-delay:0.90s"><tspan fill="#9AA8B8"> 3039</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#e34c26">HTML       </tspan>  <tspan fill="#9AA8B8">    5d</tspan>   <tspan fill="#3FE0D0">R</tspan>  <tspan fill="#F2CD7A" font-weight="700">me</tspan></text><text x="36" y="243" xml:space="preserve" class="row" style="animation-delay:1.00s"><tspan fill="#9AA8B8"> 7230</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3178c6">TypeScript </tspan>  <tspan fill="#9AA8B8">    9d</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">qala-code</tspan></text><text x="36" y="264" xml:space="preserve" class="row" style="animation-delay:1.10s"><tspan fill="#9AA8B8"> 1089</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3572A5">Python     </tspan>  <tspan fill="#9AA8B8">   41d</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">speechkit</tspan></text><text x="36" y="285" xml:space="preserve" class="row" style="animation-delay:1.20s"><tspan fill="#9AA8B8"> 4769</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#e34c26">HTML       </tspan>  <tspan fill="#9AA8B8">   3mo</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">onsteppe</tspan></text><text x="36" y="306" xml:space="preserve" class="row" style="animation-delay:1.30s"><tspan fill="#9AA8B8"> 3965</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3572A5">Python     </tspan>  <tspan fill="#9AA8B8">   3mo</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">tanba</tspan></text><text x="36" y="327" xml:space="preserve" class="row" style="animation-delay:1.40s"><tspan fill="#9AA8B8"> 3497</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3178c6">TypeScript </tspan>  <tspan fill="#9AA8B8">   4mo</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">qaida</tspan></text><text x="36" y="348" xml:space="preserve" class="row" style="animation-delay:1.50s"><tspan fill="#9AA8B8"> 7199</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3178c6">TypeScript </tspan>  <tspan fill="#9AA8B8">   5mo</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">steperun</tspan></text><text x="44" y="388" fill="#F5F7FA" font-weight="700">F1</text><rect x="64" y="373" width="57" height="21" fill="#00A6A6"/><text x="70" y="388" fill="#05070D">Сәлем</text><text x="133" y="388" fill="#F5F7FA" font-weight="700">F2</text><rect x="153" y="373" width="57" height="21" fill="#00A6A6"/><text x="159" y="388" fill="#05070D">Stack</text><text x="222" y="388" fill="#F5F7FA" font-weight="700">F3</text><rect x="242" y="373" width="39" height="21" fill="#00A6A6"/><text x="248" y="388" fill="#05070D">Sky</text><text x="293" y="388" fill="#F5F7FA" font-weight="700">F4</text><rect x="313" y="373" width="84" height="21" fill="#00A6A6"/><text x="319" y="388" fill="#05070D">Projects</text><text x="409" y="388" fill="#F5F7FA" font-weight="700">F5</text><rect x="429" y="373" width="75" height="21" fill="#00A6A6"/><text x="435" y="388" fill="#05070D">Journey</text><text x="516" y="388" fill="#F5F7FA" font-weight="700">F9</text><rect x="536" y="373" width="93" height="21" fill="#00A6A6"/><text x="542" y="388" fill="#05070D">Guestbook</text><text x="641" y="388" fill="#F5F7FA" font-weight="700">F10</text><rect x="670" y="373" width="102" height="21" fill="#00A6A6"/><text x="676" y="388" fill="#05070D">Жол болсын</text></g>
+<text x="36" y="198" fill="#05070D" font-weight="700" xml:space="preserve">  PID USER     PRI  NI  LANG         TIME+   S  COMMAND</text><rect x="20" y="207" width="1160" height="21" fill="#16243A" class="sel"/><text x="36" y="222" xml:space="preserve" class="row" style="animation-delay:0.90s"><tspan fill="#9AA8B8"> 7306</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#f1e05a">JavaScript </tspan>  <tspan fill="#9AA8B8">    0m</tspan>   <tspan fill="#3FE0D0">R</tspan>  <tspan fill="#F2CD7A" font-weight="700">nunmer</tspan></text><text x="36" y="243" xml:space="preserve" class="row" style="animation-delay:1.00s"><tspan fill="#9AA8B8"> 3039</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#e34c26">HTML       </tspan>  <tspan fill="#9AA8B8">    5d</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">me</tspan></text><text x="36" y="264" xml:space="preserve" class="row" style="animation-delay:1.10s"><tspan fill="#9AA8B8"> 7230</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3178c6">TypeScript </tspan>  <tspan fill="#9AA8B8">    9d</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">qala-code</tspan></text><text x="36" y="285" xml:space="preserve" class="row" style="animation-delay:1.20s"><tspan fill="#9AA8B8"> 1089</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3572A5">Python     </tspan>  <tspan fill="#9AA8B8">   41d</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">speechkit</tspan></text><text x="36" y="306" xml:space="preserve" class="row" style="animation-delay:1.30s"><tspan fill="#9AA8B8"> 4769</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#e34c26">HTML       </tspan>  <tspan fill="#9AA8B8">   3mo</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">onsteppe</tspan></text><text x="36" y="327" xml:space="preserve" class="row" style="animation-delay:1.40s"><tspan fill="#9AA8B8"> 3965</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3572A5">Python     </tspan>  <tspan fill="#9AA8B8">   3mo</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">tanba</tspan></text><text x="36" y="348" xml:space="preserve" class="row" style="animation-delay:1.50s"><tspan fill="#9AA8B8"> 3497</tspan> <tspan fill="#F5F7FA">nunmer</tspan>   <tspan fill="#9AA8B8">20   0</tspan>  <tspan fill="#3178c6">TypeScript </tspan>  <tspan fill="#9AA8B8">   4mo</tspan>   <tspan fill="#9AA8B8">S</tspan>  <tspan fill="#F5F7FA" font-weight="400">qaida</tspan></text><text x="44" y="388" fill="#F5F7FA" font-weight="700">F1</text><rect x="64" y="373" width="57" height="21" fill="#00A6A6"/><text x="70" y="388" fill="#05070D">Сәлем</text><text x="133" y="388" fill="#F5F7FA" font-weight="700">F2</text><rect x="153" y="373" width="57" height="21" fill="#00A6A6"/><text x="159" y="388" fill="#05070D">Stack</text><text x="222" y="388" fill="#F5F7FA" font-weight="700">F3</text><rect x="242" y="373" width="39" height="21" fill="#00A6A6"/><text x="248" y="388" fill="#05070D">Sky</text><text x="293" y="388" fill="#F5F7FA" font-weight="700">F4</text><rect x="313" y="373" width="84" height="21" fill="#00A6A6"/><text x="319" y="388" fill="#05070D">Projects</text><text x="409" y="388" fill="#F5F7FA" font-weight="700">F5</text><rect x="429" y="373" width="75" height="21" fill="#00A6A6"/><text x="435" y="388" fill="#05070D">Journey</text><text x="516" y="388" fill="#F5F7FA" font-weight="700">F9</text><rect x="536" y="373" width="93" height="21" fill="#00A6A6"/><text x="542" y="388" fill="#05070D">Guestbook</text><text x="641" y="388" fill="#F5F7FA" font-weight="700">F10</text><rect x="670" y="373" width="102" height="21" fill="#00A6A6"/><text x="676" y="388" fill="#05070D">Жол болсын</text></g>
 </svg>
