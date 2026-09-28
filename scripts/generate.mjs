@@ -13,6 +13,7 @@ import { renderHtop } from './render/htop.mjs';
 import { renderJourney } from './render/journey.mjs';
 import { renderFooter } from './render/footer.mjs';
 import { renderDivider, renderStarButton } from './render/misc.mjs';
+import { renderAvatar } from './render/avatar.mjs';
 
 const SECTIONS = { work: 'selected work', sky: 'night sky', system: 'system monitor', road: 'the road', guestbook: 'guestbook' };
 
@@ -53,6 +54,7 @@ const renders = {
   'journey.svg': renderJourney,
   'footer.svg': renderFooter,
   'button-star.svg': renderStarButton,
+  'avatar.svg': renderAvatar,
   ...Object.fromEntries(Object.entries(SECTIONS).map(([k, label]) => [`divider-${k}.svg`, () => renderDivider(label)])),
   ...Object.fromEntries(profile.projects.map((p) => [`project-${p.name}.svg`, () => renderProjectCard(p)])),
 };
