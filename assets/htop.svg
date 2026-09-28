@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="t d">
 <title id="t">htop for a GitHub profile</title>
-<desc id="d">Languages: TypeScript 47.0%, Python 30.1%, JavaScript 9.8%, HTML 9.0%, CSS 2.5%, PLpgSQL 0.9%, Other 0.7%. Recently pushed: nunmer, me, qala-code, speechkit, onsteppe, tanba, qaida.</desc>
+<desc id="d">Languages: TypeScript 46.9%, Python 30.1%, JavaScript 9.9%, HTML 9.0%, CSS 2.5%, PLpgSQL 0.9%, Other 0.7%. Recently pushed: nunmer, me, qala-code, speechkit, onsteppe, tanba, qaida.</desc>
 <style>
 .bar { transform-box: fill-box; transform-origin: left; animation: grow 1s cubic-bezier(.2,.8,.2,1) both; }
 @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
@@ -28,28 +28,28 @@
   <text x="0" y="0" fill="#3FE0D0">1</text>
   <text x="18" y="0" fill="#3178c6">TypeScript</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="138.6" height="13" rx="1" fill="#3178c6" class="bar" style="animation-delay:0.20s"/>
-  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">47.0%</text>
+  <rect x="144" y="-11" width="138.5" height="13" rx="1" fill="#3178c6" class="bar" style="animation-delay:0.20s"/>
+  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">46.9%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(36 84)">
   <text x="0" y="0" fill="#3FE0D0">2</text>
   <text x="18" y="0" fill="#3572A5">Python</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="88.8" height="13" rx="1" fill="#3572A5" class="bar" style="animation-delay:0.32s"/>
+  <rect x="144" y="-11" width="88.7" height="13" rx="1" fill="#3572A5" class="bar" style="animation-delay:0.32s"/>
   <text x="502" y="0" text-anchor="end" fill="#9AA8B8">30.1%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(36 106)">
   <text x="0" y="0" fill="#3FE0D0">3</text>
   <text x="18" y="0" fill="#f1e05a">JavaScript</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="28.9" height="13" rx="1" fill="#f1e05a" class="bar" style="animation-delay:0.44s"/>
-  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">9.8%</text>
+  <rect x="144" y="-11" width="29.3" height="13" rx="1" fill="#f1e05a" class="bar" style="animation-delay:0.44s"/>
+  <text x="502" y="0" text-anchor="end" fill="#9AA8B8">9.9%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(36 128)">
   <text x="0" y="0" fill="#3FE0D0">4</text>
   <text x="18" y="0" fill="#e34c26">HTML</text>
   <text x="135" y="0" fill="#F5F7FA">[</text>
-  <rect x="144" y="-11" width="26.6" height="13" rx="1" fill="#e34c26" class="bar" style="animation-delay:0.56s"/>
+  <rect x="144" y="-11" width="26.5" height="13" rx="1" fill="#e34c26" class="bar" style="animation-delay:0.56s"/>
   <text x="502" y="0" text-anchor="end" fill="#9AA8B8">9.0%</text>
   <text x="511" y="0" fill="#F5F7FA">]</text>
 </g><g transform="translate(596 62)">
