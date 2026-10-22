@@ -1484,6 +1484,18 @@
   ],
   "repos": [
     {
+      "name": "nunmer",
+      "pushedAt": "2026-10-22T17:12:24Z",
+      "stars": 1,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 97496
+        }
+      ]
+    },
+    {
       "name": "steperun",
       "pushedAt": "2026-10-22T16:57:14Z",
       "stars": 0,
@@ -1517,18 +1529,6 @@
           "name": "JavaScript",
           "color": "#f1e05a",
           "size": 559
-        }
-      ]
-    },
-    {
-      "name": "nunmer",
-      "pushedAt": "2026-10-22T11:55:34Z",
-      "stars": 1,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 97496
         }
       ]
     },
